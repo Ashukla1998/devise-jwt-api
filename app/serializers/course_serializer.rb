@@ -5,7 +5,8 @@ class CourseSerializer
     attribute :student do |object|
         {
             id:  object.student.id,
-            sname: object.student.sname
+            sname: object.student.sname,
+            rollnumber: object.student.rollnumber
         }
     end
 end

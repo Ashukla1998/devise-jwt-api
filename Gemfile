@@ -57,3 +57,8 @@ gem 'activeadmin'
 gem 'sprockets'
 gem 'sass-rails'
 
+gem 'rspec-rails'
+gem 'simplecov', '0.17.0'
+gem 'rspec-sonarqube-formatter', '1.5.0'
+gem 'factory_bot_rails' 
+gem 'faker'
